@@ -1,0 +1,40 @@
+PODS:
+  - CocoaLumberjack (3.8.5):
+    - CocoaLumberjack/Core (= 3.8.5)
+  - CocoaLumberjack/Core (3.8.5)
+  - hpple (0.2.0)
+  - ias-client-cpp (2.8):
+    - ias-libtool
+    - openssl-iosx (~> 1.1.1w)
+  - ias-libtool (2.4):
+    - openssl-iosx (~> 1.1.1w)
+  - openssl-iosx (1.1.1w.1)
+
+DEPENDENCIES:
+  - CocoaLumberjack (>= 3.7.4)
+  - hpple (>= 0.2.0)
+  - ias-client-cpp (from `ias-client-cpp`)
+  - ias-libtool (from `ias-client-cpp/ias-libtool`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - hpple
+    - openssl-iosx
+
+EXTERNAL SOURCES:
+  ias-client-cpp:
+    :path: ias-client-cpp
+  ias-libtool:
+    :path: ias-client-cpp/ias-libtool
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
+  ias-client-cpp: 4e3c669b76282e9613cf8c530b486ef956b83ec1
+  ias-libtool: bb5bda04e5422755390ba1485d9bf6fcee6f2b7d
+  openssl-iosx: 37249321d1527c85918dbfe62a525b1981b89057
+
+PODFILE CHECKSUM: c93745b1724f5db4d217ffef6101f69e261ee1bf
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,3 @@
+[submodule "ias-client-cpp"]
+	path = ias-client-cpp
+	url = https://github.com/Breitbandmessung/ias-client-cpp.git
